@@ -1,0 +1,148 @@
+body,html {
+    width:100vw;
+}
+.name{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.home-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100vw;
+    height: 100vh;
+}
+.home-container{
+    margin: 0;
+    padding: 0;
+}
+.text-container{
+    position: absolute;
+    top: 45%;
+    width:100%;
+    margin:auto;
+    color: white;
+    text-align: center;
+}
+
+.topnav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    width:100%;
+    top:0;
+    padding:1em;
+    z-index: 3
+}
+
+.sidesticky{
+    background-color: black;
+    color: white;
+    position: fixed; 
+    display:flex;
+    flex-direction: column;
+    width:60px;
+    height:180px;
+    margin-top:10em;
+    z-index:3;
+}
+
+.side-icon{
+    height:100%;
+    width:100%;
+    background-size: cover;
+    position: center;
+}
+
+.aboutme{
+    text-align: center;
+    margin:2em;
+}
+
+.skill-container{
+    background-color:white;
+}
+
+#h1skill{
+    text-align: center;
+    margin-top:1em;
+}
+.skills{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:0;
+}
+
+
+.work-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#h1work{
+    text-align: center;
+    margin-top:1em;
+}
+
+.work{
+    width:auto;
+    height:400px;
+    background-size:cover;
+    background-position: center;
+}
+
+.contact{
+    margin:2em;
+    text-align: center;
+}
+
+.h1resume{
+    text-align: center;
+    margin-top: 1em;
+}
+.resume{
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+}
+
+footer{
+    height:5em;
+    width:100%;
+    background-color:black;
+    color:white; 
+    margin-top:2em;
+    padding-top:2em;
+    text-align: center;
+}
+
+
+/* Modal */
+
+/* cards, ul, and icon */
+
+.card{
+    margin:10px;
+}
+.icon{
+    height:100px;
+    width:100px;
+    background-size: cover;
+    margin:1em 1em 0 1em;
+}
+.skill-text{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.line{
+    border-top: 3px solid black;
+    margin:1em;
+}
